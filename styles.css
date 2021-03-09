@@ -1,0 +1,100 @@
+
+
+html,body{
+  height:100%;
+}
+
+body{
+  background: url("images/bg-pattern-top-desktop.svg") no-repeat,
+  url("images/bg-pattern-bottom-desktop.svg") no-repeat;
+}
+
+.container{
+  margin-top: 100px;
+}
+
+h1{
+  font-family: 'Spartan', sans-serif;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+p{
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  color: hsl(303, 10%, 53%);
+  font-size: 13px;
+}
+
+h3{
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.review{
+  width: 400px;
+  height: 50px;
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px;
+}
+
+.testimonial{
+  height: 280px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.name{
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.profile{
+  border-radius: 50%
+}
+h2{
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+}
+
+.user{
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  color: hsl(333, 80%, 67%);
+  font-size: 13px;
+}
+
+.commento{
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.second{
+  height: 380px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 767px){
+  .col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .subtitle{
+    text-align: center;
+  }
+}
